@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Analysis Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Sentiment Analysis</a></li>
+            <li><a href="#">Top Hashtags</a></li>
+            <li><a href="#">User Profiles</a></li>
+            <li><a href="#">Geolocation Data</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="dashboard">
+            <canvas id="sentimentChart"></canvas>
+            <canvas id="hashtagChart"></canvas>
+            <canvas id="profileChart"></canvas>
+            <canvas id="geoChart"></canvas>
+        </div>
+    </div>
+    <!-- Include local CanvasJS library -->
+    <script src="canvasjs.min.js"></script>
+    <!-- Your main script file -->
+    <script src="main.js"></script>
+</body>
+</html>
